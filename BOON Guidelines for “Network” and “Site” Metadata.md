@@ -67,5 +67,6 @@ A **site** refers to the specific lines regularly monitored by gliders (e.g. *Ba
 # Request a new entry
 To request a new entry in the BOON Networks vocabulary and BOON Site vocabulary submit an issue in the [BOON repository](https://github.com/OceanGlidersCommunity/BOON) with the entry you would like to add to the vocabulary collection.
 
-In the case of **network**, you must provide the full value i.e. "OceanGliders > BOON > [NCEI Sea Name](https://www.ncei.noaa.gov/data/oceans/ncei/vocabulary/seanames.xml) > *Your BOON Network Name*."
+* In the case of **network**, you must provide the full value i.e. "OceanGliders > BOON > [NCEI Sea Name](https://www.ncei.noaa.gov/data/oceans/ncei/vocabulary/seanames.xml) > *Your BOON Network Name*."
+* In the case of **site**, you must provide the name of the site, its waypoints and the parent [BOON Network](https://github.com/OceanGlidersCommunity/BOON/blob/main/VocabularyCollection/BOON%20networks.md).
 

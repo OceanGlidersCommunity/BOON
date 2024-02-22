@@ -1,6 +1,6 @@
 # BOON Guidelines for “Network” and “Site” Metadata
 
-* This document describes the metadata fields that will be used by OceanOPS to populate the “Network” field in their system.
+* This document describes the metadata fields `Networks` and `Site` used in the [OG-1.0 format](https://github.com/OceanGlidersCommunity/OG-format-user-manual).
 * The goal is to have BOON assets identified and easy to find within OceanOPS. Granularity is needed both in **network** attribution and **site** attribution. 
 * These metadata fileds will allow a better tracking of the BOON Task Team activity, and assessement of the status of the task team toward its target.
 * Values for the metadata fields can be flexible but will be managed in a vocabulary on GitHub to make it easier for data providers to best populate the fields and allow for cohesion.
@@ -12,7 +12,7 @@ A format for BOON Network metadata values was chosen in 2022 (based on a meeting
 These values have been tested and integrated into the near-real-time data streams for these gliders through to the OceanGliders data system. 
 With this format the data provider chooses an NCEI Sea Name to provide an indicator of the region for their glider operations. Multiple network attributions are allowed. To implement this use a comma to separate each network entry.
 
-**Example BOON network identifiers**
+**Example BOON network entry**
 * OceanGliders > BOON > Northeast Pacific Ocean > California Underwater Glider Network
 * OceanGliders > BOON > Northwest Atlantic Ocean > Gliders in the Gulf Stream
 

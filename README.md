@@ -35,6 +35,7 @@ Please read and follow our [Code of Conduct](https://github.com/OceanGlidersComm
 
 # [BOON Guidelines for “Network” and “Site” Metadata](https://github.com/OceanGlidersCommunity/BOON/blob/main/BOON%20Guidelines%20for%20%E2%80%9CNetwork%E2%80%9D%20and%20%E2%80%9CSite%E2%80%9D%20Metadata.md)
 
-# [BOON Vocabulary Collections](https://github.com/OceanGlidersCommunity/BOON/blob/main/VocabularyCollection/BOON%20networks.md)
-
+# BOON Vocabulary Collections
+* [BOON Networks collection](https://github.com/OceanGlidersCommunity/BOON/blob/main/VocabularyCollection/BOON%20networks.md)
+* [BOON Sites collection](https://github.com/OceanGlidersCommunity/BOON/blob/main/VocabularyCollection/BOON%20sites.md)
 

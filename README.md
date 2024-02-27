@@ -33,9 +33,12 @@ This work is licensed under a [Creative Commons Attribution 4.0 Generic License]
 ## Code of Conduct
 Please read and follow our [Code of Conduct](https://github.com/OceanGlidersCommunity/BOON/blob/main/CODE_OF_CONDUCT.md).
 
-# [BOON Guidelines for “Network” and “Site” Metadata](https://github.com/OceanGlidersCommunity/BOON/blob/main/BOON%20Guidelines%20for%20%E2%80%9CNetwork%E2%80%9D%20and%20%E2%80%9CSite%E2%80%9D%20Metadata.md)
+## View Guidelines
+Start by reading the guidelines which provides background information and details on the fields.
+[BOON Guidelines for “Network” and “Site” Metadata](https://github.com/OceanGlidersCommunity/BOON/blob/main/BOON%20Guidelines%20for%20%E2%80%9CNetwork%E2%80%9D%20and%20%E2%80%9CSite%E2%80%9D%20Metadata.md)
 
-# BOON Vocabulary Collections
+## BOON Vocabulary Collections
+Use these vocabularies to populate network and site values.
 * [BOON Networks collection](https://github.com/OceanGlidersCommunity/BOON/blob/main/VocabularyCollection/BOON%20networks.md)
 * [BOON Sites collection](https://github.com/OceanGlidersCommunity/BOON/blob/main/VocabularyCollection/BOON%20sites.md)
 

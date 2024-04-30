@@ -26,19 +26,14 @@ The two concepts described below, `network` and `site` should be included in the
 
 
 ## Definition
-### Network
+### `network`
 A **network** is a regroupment of platforms, crossing the boundaries of the program. It is usually virtual and represents a common effort or way to measure data. It can represent a mutualized scientific/geographical goal (array), or logistical/fundings/etc. approach.
 Within BOON a network may refer to a regional array consisting of multiple sites (e.g., the California Underwater Glider Network) or an area of repeated glider operation (e.g., Gliders in the Gulf Stream)
 
 The global attribute `network` follows this hierarchical format:
-OceanGliders > BOON > [NCEI Sea Name](https://www.ncei.noaa.gov/data/oceans/ncei/vocabulary/seanames.xml) > *Your BOON Network Name*. (e.g., *OceanGliders > BOON > Northwest Atlantic Ocean > Gliders in the Gulf Stream*)
-Where ">" is mandatory.
+OceanGliders > BOON > [NCEI Sea Name](https://www.ncei.noaa.gov/data/oceans/ncei/vocabulary/seanames.xml) > *Your BOON Network Name*, where ">" is mandatory.
 
-A list of `network` values is found here: [BOON network list](https://github.com/OceanGlidersCommunity/BOON/blob/main/VocabularyCollection/BOON%20networks.md#boon-networks-collection). Additional network values maybe generated, but should be approved and added to the list before being implemented.  
-
-and [BOON site list](https://github.com/OceanGlidersCommunity/BOON/blob/main/VocabularyCollection/BOON%20networks.md#boon-site-collection) and use it as the value in the **network** global attribute. If you would like to list more than one network you can use a comma to separate each network entry. This format requires that the network names themselves do not include commas. If your network is not in the list, request that it be added. See instructions in the 'request a new entry' section below. 
-
-
+A list of `network` values is found here: [BOON network list](https://github.com/OceanGlidersCommunity/BOON/blob/main/VocabularyCollection/BOON%20networks.md#boon-networks-collection). Additional network values maybe generated, but should be approved and added to the list before being implemented; see instructions in the 'request a new entry' section below. If you would like to list more than one network you can use a comma to separate each network entry. This format requires that the network names themselves do not include commas.
 
 **Example BOON network metadata:**
 | NetCDF global attribute | Data Type | Value |
@@ -51,18 +46,18 @@ and [BOON site list](https://github.com/OceanGlidersCommunity/BOON/blob/main/Voc
 | network | string | OceanGliders > BOON > Northeast Pacific Ocean > California Underwater Glider Network, IOOS > SCCOOS, IOOS > CeNCOOS |
 
 
-## Site
-A **site** refers to the specific lines regularly monitored by gliders (e.g. *Balearic - Canales C1, CUGN Line 66*)
+### `site`
+A **site** refers to the specific lines regularly monitored by gliders (e.g., *Balearic - Canales C1, CUGN Line 66*). A list of BOON sites is maintained here: [BOON site list](https://github.com/OceanGlidersCommunity/BOON/blob/main/VocabularyCollection/BOON%20networks.md#boon-site-collection). If your site is not included on the list, please request that it be added. 
 
 **Example site metadata:**
  NetCDF global attribute | Data Type | Value |
 |:-------|:-------|:-------|
-| network | string | CUGN Line 66|
+| site | string | CUGN Line 66|
 
 **Example with multiple networks:**
 | NetCDF global attribute | Data Type | Value |
 |:-------|:-------|:-------|
-| network | string | CUGN Line 66, CUGN Alongshore|
+| site | string | CUGN Line 66, CUGN Alongshore|
 
 # Request a new entry
 To request a new entry in the BOON Networks vocabulary and BOON Site vocabulary submit an issue in the [BOON repository](https://github.com/OceanGlidersCommunity/BOON) or reach out to the vocabulary maintainers (@jenseva,@rtodd-whoi) with the entry you would like to add to the vocabulary collection.

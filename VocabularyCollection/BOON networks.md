@@ -1,6 +1,4 @@
-# BOON vocabulary collections
-
-## BOON networks collection
+# BOON `network` Vocabulary
 | Network attributes | Region | Countries| Description | Lead(s) | status |
 |:--------|:--------|:--------|:--------|:--------|:--------|
 | *OceanGliders > BOON > Northwest Atlantic Ocean > Gliders in the Gulf Stream* | Northwest Atlantic  |  USA, Canada | East coasts of US and Canada from Florida to Labrador. Gulf Stream and related eddies are a unifying feature in deep water. Shelfbreak frontal circualtion links from Labrador to Cape Hatteras. | Robert Todd, Dave Hebert   | **published** |

@@ -1,12 +1,17 @@
 # BOON `network` Vocabulary
-| Network attributes | Region | Countries| Description | Lead(s) | status |
-|:--------|:--------|:--------|:--------|:--------|:--------|
-| *OceanGliders > BOON > Northwest Atlantic Ocean > Gliders in the Gulf Stream* | Northwest Atlantic  |  USA, Canada | East coasts of US and Canada from Florida to Labrador. Gulf Stream and related eddies are a unifying feature in deep water. Shelfbreak frontal circualtion links from Labrador to Cape Hatteras. | Robert Todd, Dave Hebert   | **published** |
-| *OceanGliders > BOON > Northeast Pacific Ocean > California Underwater Glider Network* | Northeast Pacific  | USA, Canada, Mexico | California Current System |   Dan Rudnick   |  **published**  |
-| *OceanGliders > BOON > Indian Ocean > Gliders in the Agulas current* | Southwest Indian |  South Africa | Agulhas |  Tammy Morris   | **published** |
-| *OceanGliders > BOON > Southeast Atlantic Ocean > Gliders in the Benguela current* | Southeast Atlantic   | South Africa | Benguela |   Tammy Morris   | **published** |
 
+| NCEI Sea Name | Network Name | Countries | Type | Description | Leads | `network` attribute | Status
+|:--------|:--------|:--------|:--------|:--------|:--------|:--------|:--------|
+| Northeast Pacific | | USA, Canada, Mexico | BOON Region | California Current System | Dan Rudnick | *OceanGliders > BOON > Northeast Pacific Ocean* | **published** |
+| Northeast Pacific | California Underwater Glider Network (CUGN) | USA | Specific Network | | Dan Rudnick | *OceanGliders > BOON > Northeast Pacific Ocean > California Underwater Glider Network* | **published**
+| Northwest Atlantic | | USA, Canada | BOON Region | East coasts of US and Canada from Florida to Labrador. Gulf Stream and related eddies are a unifying feature in deep water. Shelfbreak frontal circualtion links from Labrador to Cape Hatteras. | Robert Todd, Dave Hebert | *OceanGliders > BOON > Northwest Atlantic Ocean* | **published** |
+| Northwest Atlantic | Gliders in the Gulf Stream | USA | Specific Network | Gulf Stream and surrounding waters from southern Florida to the New England Seamounts. | Robert Todd, WHOI | *OceanGliders > BOON > Northwest Atlantic Ocean > Gliders in the Gulf Stream* | **published** |
+| Southeast Atlantic | | South Africa | BOON Region | | Tammy Morris | *OceanGliders > BOON > Southeast Atlantic Ocean > Gliders in the Benguela current* | |
+| Southeast Atlantic | Gliders in the Benguela current | South Africa | Specific Network | | Tammy Morris | *OceanGliders > BOON > Southeast Atlantic Ocean > Gliders in the Benguela current* | |
+| Southwest Indian | | South Africa | Specific Network | | Tammy Morris | *OceanGliders > BOON > Indian Ocean > Gliders in the Agulhas current* |  |
+| Southwest Indian | Gliders in the Agulhas current (GINA) | South Africa | Specific Network | | Tammy Morris | *OceanGliders > BOON > Indian Ocean > Gliders in the Agulhas current* |  |
 
+<!--- RET Commenting out future entries
 ### Status table of future entries in BOON networks collection
 
 This table describe the status of discussion of the future element of then BOON network collection. 
@@ -26,3 +31,4 @@ This table describe the status of discussion of the future element of then BOON 
 | Southwest Indian    |  Tammy Morris   | South Africa | Agulhas | *OceanGliders > BOON > Indian Ocean > Gliders in the Agulas current* | **published** | is Indian Ocean too large, can we request a new entry to NCEI ? |
 | Southeast Pacific |  IMRAPE?? | Peru ?? | **Description needed** | *OceanGliders > BOON > XXX > XXX*  | pending | network name needed, NCEI sea name needed: "South Pacific Ocean" / Southeast Pacific Ocean (limit-140 W) / Equatorial Pacific Ocean ; can we request a new entry to NCEI ?|
 
+-->

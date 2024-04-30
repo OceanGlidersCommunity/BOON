@@ -1,16 +1,16 @@
-# BOON Guidelines for “Network” and “Site” Metadata
+# BOON Guidelines for “network” and “wite” Metadata
 
-* This document describes the metadata fields `Networks` and `Site` used in the [OG-1.0 format](https://github.com/OceanGlidersCommunity/OG-format-user-manual).
-* The goal is to have BOON assets identified and easy to find within OceanOPS. Granularity is needed both in **network** attribution and **site** attribution. 
-* These metadata fileds will allow a better tracking of the BOON Task Team activity, and assessement of the status of the task team toward its target.
+* This document describes the metadata fields `network` and `wite` used in the [OG-1.0 format](https://github.com/OceanGlidersCommunity/OG-format-user-manual).
+* The goal is to have BOON assets identified and easy to find within OceanOPS. Granularity is needed both in `network` attribution and `site` attribution. 
+* These metadata fields will allow for better tracking of the BOON Task Team activity and assessement of the status of the task team toward its target.
 * Values for the metadata fields can be flexible but will be managed in a vocabulary on GitHub to make it easier for data providers to best populate the fields and allow for cohesion.
 
 ---
 
 ## Network Metadata Field Background
-A format for BOON Network metadata values was chosen in 2022 (based on a meeting 9 December 2022 and follow-up correspondence). Network values were selected for the California Underwater Glider Network (CUGN) and Gliders in the Gulf Stream programs and this documentation was drafted. These values have been tested and integrated into the near-real-time data streams for these gliders through to the OceanGliders data system. With this format the data provider chooses an NCEI Sea Name to provide an indicator of the region for their glider operations. Multiple network attributions are allowed. To implement this use a comma to separate each network entry.
+A format for BOON `network` metadata values was chosen in 2022 (based on a meeting 9 December 2022 and follow-up correspondence). `network` values were selected for the 'California Underwater Glider Network (CUGN)' and 'Gliders in the Gulf Stream' programs and this documentation was drafted. These values have been tested and integrated into the near-real-time data streams for these programs through to the OceanGliders data system. With this format, the data provider chooses an NCEI Sea Name to provide an indicator of the region for their glider operations. Multiple network attributions are allowed. To implement this use a comma to separate each network entry.
 
-**Example BOON network entry**
+**Example BOON `network` entries**
 * OceanGliders > BOON > Northeast Pacific Ocean > California Underwater Glider Network
 * OceanGliders > BOON > Northwest Atlantic Ocean > Gliders in the Gulf Stream
 
@@ -20,7 +20,7 @@ A format for BOON Network metadata values was chosen in 2022 (based on a meeting
 
 
 ## How this looks in metadata
-The use of the metadata scheme below can be used with any NetCDF format currently used to store glider data. This includes the EGO, IOOS glider DAC and IMOS glider formats.
+The metadata scheme below can be used with any NetCDF format currently used to store glider data. This includes the EGO, IOOS glider DAC and IMOS glider formats.
 
 The [OG-1.0 format](https://github.com/OceanGlidersCommunity/OG-format-user-manual) has also been designed to handle this information.
 
@@ -30,7 +30,7 @@ The two concepts described below, **network** and **site** should be included in
 ## Definition
 ### Network
 A **network** is a regroupment of platforms, crossing the boundaries of the program. It is usually virtual and represents a common effort or way to measure data. It can represent a mutualized scientific/geographical goal (array), or logistical/fundings/etc. approach.
-BOON networks refers to a regional array (multiple sites, e.g *California Underwater Glider Network*) or an area of repeated glider operation (e.g. *glider in the gulf stream*)
+BOON networks refers to a regional array (multiple sites, e.g *California Underwater Glider Network*) or an area of repeated glider operation (e.g. *Gliders in the Gulf Stream*)
 
 Find the appropriate network name from the [BOON network list](https://github.com/OceanGlidersCommunity/BOON/blob/main/VocabularyCollection/BOON%20networks.md#boon-networks-collection) and [BOON site list](https://github.com/OceanGlidersCommunity/BOON/blob/main/VocabularyCollection/BOON%20networks.md#boon-site-collection) and use it as the value in the **network** global attribute. If you would like to list more than one network you can use a comma to separate each network entry. This format requires that the network names themselves do not include commas. If your network is not in the list, request that it be added. See instructions in the 'request a new entry' section below. 
 

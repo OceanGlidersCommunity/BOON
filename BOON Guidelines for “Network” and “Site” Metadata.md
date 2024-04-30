@@ -8,9 +8,7 @@
 ---
 
 ## Network Metadata Field Background
-A format for BOON Network metadata values was chosen in 2022 (based on a meeting 12/09/2022 and follow-up correspondence). Network values were selected for the California Underwater Glider Network (CUGN) and Gulf Stream programs and this documentation was drafted.  
-These values have been tested and integrated into the near-real-time data streams for these gliders through to the OceanGliders data system. 
-With this format the data provider chooses an NCEI Sea Name to provide an indicator of the region for their glider operations. Multiple network attributions are allowed. To implement this use a comma to separate each network entry.
+A format for BOON Network metadata values was chosen in 2022 (based on a meeting 9 December 2022 and follow-up correspondence). Network values were selected for the California Underwater Glider Network (CUGN) and Gliders in the Gulf Stream programs and this documentation was drafted. These values have been tested and integrated into the near-real-time data streams for these gliders through to the OceanGliders data system. With this format the data provider chooses an NCEI Sea Name to provide an indicator of the region for their glider operations. Multiple network attributions are allowed. To implement this use a comma to separate each network entry.
 
 **Example BOON network entry**
 * OceanGliders > BOON > Northeast Pacific Ocean > California Underwater Glider Network

@@ -3,7 +3,7 @@
 This [GitHub repository](https://github.com/OceanGlidersCommunity/BOON) is for the [OceanGliders Boundary Ocean Observing Network Task Team.](https://www.oceangliders.org/taskteams/boundary-current/) 
 
 ## Why have a BOON repository?
-This repository aims at centralising elements of the BOON Networks that needs to be maintained and kept up to date. It serves as a forum to request evolution of the documentation related to BOON. This include governance material, vocabuary management, membership, and technical discussion.
+This repository aims at centralising elements of the BOON Networks that need to be maintained and kept up to date. It serves as a forum to request evolution of the documentation related to BOON. This includes governance material, vocabuary management, membership, and technical discussion.
 
 ## Continous community review
 Feedback by the global glider community is possible at any time. 
@@ -11,7 +11,7 @@ Everyone is welcome to contribute to the BOON repository.
 
 ### Who is invited to review?
 Constructive feedback by anyone is welcome. 
-We encourage both experts and new gliders users to participate, contribute, and provide feedback. 
+We encourage both experts and new glider users to participate, contribute, and provide feedback. 
 For example: Experts like glider operators are welcome to suggest new entries in the vocabularies. 
 New users can help to improve the documentation by providing a feedback from the user perspective. 
 Please use the discussions section to [let us know that what you think](https://github.com/OceanGlidersCommunity/BOON/discussions).
@@ -22,9 +22,9 @@ Do you want to comment on the documentation and vocabulary collections.
 Just raise a question in the [discussions section](https://github.com/OceanGlidersCommunity/BOON/discussions) or create an issue in the relevant repository.
 
 ## Questions? Issues? Additions?
-Do you have any questions related to BOON? Or do you struggle to comment the BOON documentation? 
+Do you have any questions related to BOON? Or do you struggle to comment on the BOON documentation? 
 Just raise a question [here](https://github.com/OceanGlidersCommunity/BOON/discussions).
-Do you want to raise a particular issue regarding BOON documentation or request the addition to a vocabulary collection?
+Do you want to raise a particular issue regarding BOON documentation or request an addition to a vocabulary collection?
 Just raise an issue [here](https://github.com/OceanGlidersCommunity/BOON/issues).
 
 ## License

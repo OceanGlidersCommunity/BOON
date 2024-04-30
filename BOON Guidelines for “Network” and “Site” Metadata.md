@@ -34,7 +34,9 @@ The global attribute `network` follows this hierarchical format:
 OceanGliders > BOON > [NCEI Sea Name](https://www.ncei.noaa.gov/data/oceans/ncei/vocabulary/seanames.xml) > *Your BOON Network Name*. (e.g., *OceanGliders > BOON > Northwest Atlantic Ocean > Gliders in the Gulf Stream*)
 Where ">" is mandatory.
 
-A list of `network` values is found here: [BOON network list](https://github.com/OceanGlidersCommunity/BOON/blob/main/VocabularyCollection/BOON%20networks.md#boon-networks-collection) and [BOON site list](https://github.com/OceanGlidersCommunity/BOON/blob/main/VocabularyCollection/BOON%20networks.md#boon-site-collection) and use it as the value in the **network** global attribute. If you would like to list more than one network you can use a comma to separate each network entry. This format requires that the network names themselves do not include commas. If your network is not in the list, request that it be added. See instructions in the 'request a new entry' section below. 
+A list of `network` values is found here: [BOON network list](https://github.com/OceanGlidersCommunity/BOON/blob/main/VocabularyCollection/BOON%20networks.md#boon-networks-collection). Additional network values maybe generated, but should be approved and added to the list before being implemented.  
+
+and [BOON site list](https://github.com/OceanGlidersCommunity/BOON/blob/main/VocabularyCollection/BOON%20networks.md#boon-site-collection) and use it as the value in the **network** global attribute. If you would like to list more than one network you can use a comma to separate each network entry. This format requires that the network names themselves do not include commas. If your network is not in the list, request that it be added. See instructions in the 'request a new entry' section below. 
 
 
 
@@ -63,7 +65,7 @@ A **site** refers to the specific lines regularly monitored by gliders (e.g. *Ba
 | network | string | CUGN Line 66, CUGN Alongshore|
 
 # Request a new entry
-To request a new entry in the BOON Networks vocabulary and BOON Site vocabulary submit an issue in the [BOON repository](https://github.com/OceanGlidersCommunity/BOON) with the entry you would like to add to the vocabulary collection.
+To request a new entry in the BOON Networks vocabulary and BOON Site vocabulary submit an issue in the [BOON repository](https://github.com/OceanGlidersCommunity/BOON) or reach out to the vocabulary maintainers (@jenseva,@rtodd-whoi) with the entry you would like to add to the vocabulary collection.
 
 * In the case of **network**, you must provide the full value i.e. "OceanGliders > BOON > [NCEI Sea Name](https://www.ncei.noaa.gov/data/oceans/ncei/vocabulary/seanames.xml) > *Your BOON Network Name*."
 * In the case of **site**, you must provide the name of the site, its waypoints and the parent [BOON Network](https://github.com/OceanGlidersCommunity/BOON/blob/main/VocabularyCollection/BOON%20networks.md).

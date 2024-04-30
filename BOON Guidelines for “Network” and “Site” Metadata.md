@@ -20,23 +20,23 @@ A format for BOON `network` metadata values was chosen in 2022 (based on a meeti
 
 
 ## How this looks in metadata
-The metadata scheme below can be used with any NetCDF format currently used to store glider data. This includes the EGO, IOOS glider DAC and IMOS glider formats.
+The metadata scheme below can be used with any NetCDF format currently used to store glider data. This includes the EGO, IOOS glider DAC and IMOS glider formats. The [OG-1.0 format](https://github.com/OceanGlidersCommunity/OG-format-user-manual) has also been designed to handle this information.
 
-The [OG-1.0 format](https://github.com/OceanGlidersCommunity/OG-format-user-manual) has also been designed to handle this information.
-
-The two concepts described below, **network** and **site** should be included in the NetCDF global attributes with a string data type. 
+The two concepts described below, `network` and `site` should be included in the NetCDF global attributes with a string data type. 
 
 
 ## Definition
 ### Network
 A **network** is a regroupment of platforms, crossing the boundaries of the program. It is usually virtual and represents a common effort or way to measure data. It can represent a mutualized scientific/geographical goal (array), or logistical/fundings/etc. approach.
-BOON networks refers to a regional array (multiple sites, e.g *California Underwater Glider Network*) or an area of repeated glider operation (e.g. *Gliders in the Gulf Stream*)
+Within BOON a network may refer to a regional array consisting of multiple sites (e.g., the California Underwater Glider Network) or an area of repeated glider operation (e.g., Gliders in the Gulf Stream)
 
-Find the appropriate network name from the [BOON network list](https://github.com/OceanGlidersCommunity/BOON/blob/main/VocabularyCollection/BOON%20networks.md#boon-networks-collection) and [BOON site list](https://github.com/OceanGlidersCommunity/BOON/blob/main/VocabularyCollection/BOON%20networks.md#boon-site-collection) and use it as the value in the **network** global attribute. If you would like to list more than one network you can use a comma to separate each network entry. This format requires that the network names themselves do not include commas. If your network is not in the list, request that it be added. See instructions in the 'request a new entry' section below. 
-
-The global attribute **network** follows this format:
-OceanGliders > BOON > [NCEI Sea Name](https://www.ncei.noaa.gov/data/oceans/ncei/vocabulary/seanames.xml) > *Your BOON Network Name*. (e.g *OceanGliders > BOON > Northwest Atlantic Ocean > Gliders in the Gulf Stream*)
+The global attribute `network` follows this hierarchical format:
+OceanGliders > BOON > [NCEI Sea Name](https://www.ncei.noaa.gov/data/oceans/ncei/vocabulary/seanames.xml) > *Your BOON Network Name*. (e.g., *OceanGliders > BOON > Northwest Atlantic Ocean > Gliders in the Gulf Stream*)
 Where ">" is mandatory.
+
+A list of appropriate `network` values is found here: [BOON network list](https://github.com/OceanGlidersCommunity/BOON/blob/main/VocabularyCollection/BOON%20networks.md#boon-networks-collection) and [BOON site list](https://github.com/OceanGlidersCommunity/BOON/blob/main/VocabularyCollection/BOON%20networks.md#boon-site-collection) and use it as the value in the **network** global attribute. If you would like to list more than one network you can use a comma to separate each network entry. This format requires that the network names themselves do not include commas. If your network is not in the list, request that it be added. See instructions in the 'request a new entry' section below. 
+
+
 
 **Example BOON network metadata:**
 | NetCDF global attribute | Data Type | Value |

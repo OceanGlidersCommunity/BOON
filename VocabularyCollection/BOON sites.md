@@ -1,6 +1,4 @@
-# BOON vocabulary collections
-
-## BOON `site` collection
+# BOON `site` collection
 | `site` | Lead(s) | countries| Description (waypoints) | BOON Networks | status |
 |:--------|:--------|:--------|:--------|:--------|:--------|
 | CUGN Line 56 | Dan Rudnick, Scripps | USA | | *OceanGliders > BOON > Northeast Pacific Ocean > California Underwater Glider Network* | **published**|

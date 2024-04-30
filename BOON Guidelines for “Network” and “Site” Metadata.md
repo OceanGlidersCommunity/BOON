@@ -1,4 +1,4 @@
-# BOON Guidelines for “network” and “wite” Metadata
+# BOON Guidelines for `network` and `site` Metadata
 
 * This document describes the metadata fields `network` and `site` used in the [OG-1.0 format](https://github.com/OceanGlidersCommunity/OG-format-user-manual).
 * The goal is to have BOON assets identified and easy to find within OceanOPS. Granularity is needed both in `network` attribution and `site` attribution. 

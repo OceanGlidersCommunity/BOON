@@ -34,7 +34,7 @@ The global attribute `network` follows this hierarchical format:
 OceanGliders > BOON > [NCEI Sea Name](https://www.ncei.noaa.gov/data/oceans/ncei/vocabulary/seanames.xml) > *Your BOON Network Name*. (e.g., *OceanGliders > BOON > Northwest Atlantic Ocean > Gliders in the Gulf Stream*)
 Where ">" is mandatory.
 
-A list of appropriate `network` values is found here: [BOON network list](https://github.com/OceanGlidersCommunity/BOON/blob/main/VocabularyCollection/BOON%20networks.md#boon-networks-collection) and [BOON site list](https://github.com/OceanGlidersCommunity/BOON/blob/main/VocabularyCollection/BOON%20networks.md#boon-site-collection) and use it as the value in the **network** global attribute. If you would like to list more than one network you can use a comma to separate each network entry. This format requires that the network names themselves do not include commas. If your network is not in the list, request that it be added. See instructions in the 'request a new entry' section below. 
+A list of `network` values is found here: [BOON network list](https://github.com/OceanGlidersCommunity/BOON/blob/main/VocabularyCollection/BOON%20networks.md#boon-networks-collection) and [BOON site list](https://github.com/OceanGlidersCommunity/BOON/blob/main/VocabularyCollection/BOON%20networks.md#boon-site-collection) and use it as the value in the **network** global attribute. If you would like to list more than one network you can use a comma to separate each network entry. This format requires that the network names themselves do not include commas. If your network is not in the list, request that it be added. See instructions in the 'request a new entry' section below. 
 
 
 

@@ -1,9 +1,10 @@
 # BOON `network` Vocabulary
 
-| NCEI Sea Name | Network Name | Countries | Type | Description | Leads | `network` attribute | Status
+| BOON Region | Network Name | Countries | Type | Description | Leads | `network` attribute | Status
 |:--------|:--------|:--------|:--------|:--------|:--------|:--------|:--------|
 | Northeast Pacific | | USA, Canada, Mexico | BOON Region | California Current System | Dan Rudnick | *OceanGliders > BOON > Northeast Pacific Ocean* | **published** |
-| Northeast Pacific | California Underwater Glider Network (CUGN) | USA | Specific Network | | Dan Rudnick | *OceanGliders > BOON > Northeast Pacific Ocean > California Underwater Glider Network* | **published**
+| Northeast Pacific | California Underwater Glider Network (CUGN) | USA | Specific Network | | Dan Rudnick | *OceanGliders > BOON > Northeast Pacific Ocean > California Underwater Glider Network* | **published** |
+| Northeast Pacific | C-PROOF | Canada | Specific Network | | Jody Kylmak | *OceanGliders > BOON > Northeast Pacific Ocean > C-PROOF* | **published** |
 | Northwest Atlantic | | USA, Canada | BOON Region | East coasts of US and Canada from Florida to Labrador. Gulf Stream and related eddies are a unifying feature in deep water. Shelfbreak frontal circualtion links from Labrador to Cape Hatteras. | Robert Todd, Dave Hebert | *OceanGliders > BOON > Northwest Atlantic Ocean* | **published** |
 | Northwest Atlantic | Gliders in the Gulf Stream | USA | Specific Network | Gulf Stream and surrounding waters from southern Florida to the New England Seamounts. | Robert Todd, WHOI | *OceanGliders > BOON > Northwest Atlantic Ocean > Gliders in the Gulf Stream* | **published** |
 | Southeast Atlantic | | South Africa | BOON Region | | Tammy Morris | *OceanGliders > BOON > Southeast Atlantic Ocean > Gliders in the Benguela current* | |

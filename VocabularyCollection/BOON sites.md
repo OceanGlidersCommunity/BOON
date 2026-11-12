@@ -11,8 +11,8 @@
 | Halifax section | DFO | Canada | | *OceanGliders > BOON > Northwest Atlantic Ocean* | **published**|
 | Calvert Island | DFO | Canada | | -- | **published**|
 | SAMBA_01 | VOTO | Sweden | Skagerrak/Kattegat |  *OceanGliders > BOON > Baltic Sea > SAMBA* | **published**|
-| SAMBA_02 | VOTO | Sweden | Borhnholm Basin |  *OceanGliders > BOON > Baltic Sea > SAMBA* | **published**|
-| SAMBA_03 | VOTO | Sweden | Easten Gotland Basin |  *OceanGliders > BOON > Baltic Sea > SAMBA* | **published**|
+| SAMBA_02 | VOTO | Sweden | Bornholm Basin |  *OceanGliders > BOON > Baltic Sea > SAMBA* | **published**|
+| SAMBA_03 | VOTO | Sweden | Eastern Gotland Basin |  *OceanGliders > BOON > Baltic Sea > SAMBA* | **published**|
 | SAMBA_04 | VOTO | Sweden | Western Gotland Basin|  *OceanGliders > BOON > Baltic Sea > SAMBA* | **published**|
 | SAMBA_05 | VOTO | Sweden | Åland Sea |  *OceanGliders > BOON > Baltic Sea > SAMBA* | **published**|
 | SAMBA_06 | VOTO | Sweden | Central Eastern Gotland Basin |  *OceanGliders > BOON > Baltic Sea > SAMBA* | **published**|
